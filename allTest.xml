@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="example suite 1" verbose="1">
+	<test name="All Tests">
+		<classes>
+			<class name="ExtentReport.otherTest.HomePage" />
+			<class name="ExtentReport.test.ReportTest" />
+		</classes>
+	</test>
+</suite>
